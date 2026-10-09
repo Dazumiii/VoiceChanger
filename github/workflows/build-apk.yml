@@ -1,9 +1,10 @@
 
 name: Build VoiceChanger APK
 
-on:
+'on':
   push:
-    branches: [master]
+    branches:
+      - master
   workflow_dispatch:
 
 jobs:
